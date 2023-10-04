@@ -6,7 +6,7 @@ on:
 
   push:
 
-    branches: [main]
+    branches: [master]
 
 jobs:
 
@@ -18,13 +18,13 @@ jobs:
 
     env:
 
-      BUCKET: test-react-dan-app
+      BUCKET: nextjsapp3
 
       DIST: out
 
       REGION: ap-south-1
 
-      DIST_ID: E11JW0G6J86QDY
+      DIST_ID: E1AFS2YW4G355F
 
  
 
